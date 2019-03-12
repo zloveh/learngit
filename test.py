@@ -96,3 +96,6 @@ class RedisClient(object):
         :return: 全部代理列表
         """
         return self.db.zrangebyscore(REDIS_KEY, MIN_SCORE, MAX_SCORE)
+
+    def test1(self):
+        print "test1"
