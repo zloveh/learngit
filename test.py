@@ -99,4 +99,7 @@ class RedisClient(object):
 
       
     def test2(self):
-        print "test1"
+        print "test2"
+
+    def _test2(self):
+        print "_test2"
