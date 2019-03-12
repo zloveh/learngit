@@ -97,5 +97,6 @@ class RedisClient(object):
         """
         return self.db.zrangebyscore(REDIS_KEY, MIN_SCORE, MAX_SCORE)
 
-    def test2(self):
-        print "test2"
+      
+    def test1(self):
+        print "test1"
